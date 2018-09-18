@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "NSW Trip Planner Automation Suite">
+<parameter name = "appURL" value="https://transportnsw.info/trip#/" />
+<parameter name = "browser" value="CH" />
+	<test name ="Functional Test">
+		<classes>
+		<class name = "com.qa.ahq.nswtripplanner.tests.NswTripPlannerTest"/>
+		</classes>
+	</test>
+</suite>
+       
